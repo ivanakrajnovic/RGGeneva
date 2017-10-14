@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @pearl.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @pearl.description %>
+</p>
+
+<p>
+  <strong>Picture:</strong>
+  <%= @pearl.picture %>
+</p>
+
+<%= link_to 'Edit', edit_pearl_path(@pearl) %> |
+<%= link_to 'Back', pearls_path %>

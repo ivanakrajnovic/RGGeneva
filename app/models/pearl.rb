@@ -1,0 +1,2 @@
+class Pearl < ApplicationRecord
+end
